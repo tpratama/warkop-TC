@@ -9,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class=""></i>  <span class="light">Warkop</span> TC
+                  <span class="light">Warkop</span> <mark>TC</mark>
                 </a>
             </div>
 
@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Warkop TC</h1>
+                        <h1 class="brand-heading">Warkop <mark> TC </mark></h1>
                         <p class="intro-text">Sebuah forum teknologi </br> Wadah komunikasi dan informasi.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
