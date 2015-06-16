@@ -15,9 +15,21 @@ $(function() {
                 $(this).animate({'opacity':'1'},1000);
                     
             }
+        
             
             
         }); 
+        
+        $('.slideLeft').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+10) {
+				$(this).addClass(".slideLeft");
+			}
+		});
     
     });
 });
+
+

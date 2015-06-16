@@ -42,8 +42,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Warkop <mark> TC </mark></h1>
-                        <p class="intro-text">Sebuah forum teknologi </br> Wadah komunikasi dan informasi.</p>
+                        <h1 class="brand-heading">Warkop <mark class="hovering2"> TC </mark></h1>
+                        <p class="intro-text"><mark>Sebuah forum teknologi </br> Wadah komunikasi dan informasi.</mark></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -75,8 +75,8 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2 fadeInBlock">
                     <h2>Behind The Scene</h2>
-                    <img title="Theo Pratama" src="<?php base_url(); ?>assets/img/theo.jpg" class="round">
-                    <img title="Andy Eshaldy Raisha Pakki" src="<?php base_url(); ?>assets/img/andi.jpg" class="round">
+                    <img title="Theo Pratama" src="<?php base_url(); ?>assets/img/theo.jpg" class="tooltip round" data-toggle="tooltip">
+                    <img title="Andi Ershaldy RP" src="<?php base_url(); ?>assets/img/andi.jpg" class="round" data-toggle="tooltip" style="margin-left:400px">
                 </div>
             </div>
         </div>
