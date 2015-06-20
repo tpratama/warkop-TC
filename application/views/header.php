@@ -19,7 +19,7 @@
     <!-- Custom CSS -->
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href="<?php echo base_url(); ?>assets/css/warkoptc.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/css/animations.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">

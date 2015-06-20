@@ -20,5 +20,8 @@
         <script src="<?php echo base_url(); ?>assets/js/grayscale.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/classie.js"></script>
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+        
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
 </html>
