@@ -1,0 +1,21 @@
+entry-head {
+  position: relative;
+  border-left: 5px solid #1998ed;
+  line-height: 20px;
+  padding: 0 10px;
+  height: 30px;
+} 
+
+reply-form {
+  margin-bottom: 10px;
+}
+
+#head{
+	margin: 10px;
+	margin-top:40px;
+}
+
+#judul {
+	overflow:auto;
+	height:auto;
+	}

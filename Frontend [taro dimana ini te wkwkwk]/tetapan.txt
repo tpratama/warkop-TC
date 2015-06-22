@@ -1,0 +1,14 @@
+Biru Muda	1C9CD8
+Gelap		2E363A
+BG		E4E4E4
+Terang		F1F1F1
+Terang bgt	F8F8F8
+
+Merah		F72E2E
+Orange		F58634
+Ijo		00A85A
+Biru		00AFF0
+
+BT		1c48d8
+
+Margin : 10
