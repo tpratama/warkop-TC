@@ -1,0 +1,53 @@
+#kuliah {
+	background-image:url(../images/sample/subforum/kuliah.png);
+	width:73%;
+	height:150px;
+	margin:10px;
+}
+
+#bebas {
+	background-image:url(../images/sample/subforum/bebas.png);
+	width:73%;
+	height:150px;
+	margin:10px;
+}
+
+#judul_info {
+	color:#FFFFFF;
+	background-color:#2E363A;
+	width:10%;
+	padding:5px;
+	float:right;
+	text-align:right;
+	margin-top:100px;
+}
+
+#cat {
+	margin: 10px;
+	margin-top:20px;
+	background-color:#F1F1F1;
+	width: 73%;
+	height: 440px;
+}
+
+.subcat {
+	font-weight:normal;
+	margin: 10px;
+	padding: 10px;
+	width: 20%;
+	float:left;
+	font-size:12px;
+}
+
+.parental {
+	font-weight:bold;
+	font-size:14px;
+}
+
+.subforum {
+	margin-left:10px;
+}
+
+#footer {
+	margin-top:-75px;
+	}

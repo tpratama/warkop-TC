@@ -1,0 +1,92 @@
+#judul {
+	background-color:#F1F1F1;
+	width:73%;
+	height:120px;
+	margin:10px;
+}
+
+#footer{
+	margin-top:-80px;
+}
+
+#judul_info {
+	color:#FFFFFF;
+	background-color:#2E363A;
+	width:auto;
+	padding:5px;
+	padding-left:10px;
+	float:right;
+	text-align:right;
+	margin-top:100px;
+}
+
+#navigation {
+	color:#FFFFFF;
+	background-color:#2E363A;
+	width:98.9%;
+	padding:5px;
+	float:left;
+	text-align:left;
+}
+
+#postnew {
+	color:#FFFFFF;
+	background-color:#F72E2E;
+	position:absolute;
+	width:auto;
+	padding:5px;
+	top:auto;
+	left:auto;
+	margin-top:40px;
+	font-weight:bold;
+}
+
+.post {
+	background-color:#ededed;
+	width:73%;
+	display:block;
+	overflow:auto;
+	margin:10px;
+	font-size:13px;
+}
+
+.post_title {
+	background-color:#1C9CD8;
+	padding: 5px;
+	color:#FFFFFF;
+	width:auto;
+}
+
+.post_id {
+	width:23%;
+	padding:5px;
+	float:left;
+	overflow:auto;
+}
+
+.gambar {
+	margin:5px;
+	float:left;
+}
+
+.id {
+	float:left;
+	padding:2px;
+}
+
+.post_isi {
+	float:left;
+	width:74.73%;
+	min-height:150px;
+	height:auto;
+	background-color:#F1F1F1;
+	padding:5px;
+}
+
+.paging {
+	width:auto;
+	text-align:right;
+	padding-top:35px;
+	padding-right:10px;
+	float:inherit;
+}

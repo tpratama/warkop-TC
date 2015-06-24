@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Portal extends CI_Controller {
+class Forum extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -18,10 +18,15 @@ class Portal extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-		$this->load->view('portal/header');
-		$this->load->view('portal/landing');
-		$this->load->view('portal/footer');
+	public function index(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/index');
+		$this->load->view('forum/footer');
+	}
+
+	public function alpha(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/index_alpha');
+		$this->load->view('forum/footer');
 	}
 }

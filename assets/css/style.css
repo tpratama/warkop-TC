@@ -74,6 +74,42 @@ a {
       .navbar-custom .nav li.active a:hover {
         color: #fff; }
 
+.navbar-forum {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #2E363A; }
+  .navbar-forum .navbar-brand {
+    font-weight: 700; }
+    .navbar-forum .navbar-brand:focus {
+      outline: 0; }
+    .navbar-forum .navbar-brand .navbar-toggle {
+      padding: 4px 6px;
+      font-size: 16px;
+      color: #000; }
+      .navbar-forum .navbar-brand .navbar-toggle:focus, .navbar-forum .navbar-brand .navbar-toggle:active {
+        outline: 0; }
+  .navbar-forum a {
+    color: #000; }
+  .navbar-forum .nav li a {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
+    .navbar-forum .nav li a:hover {
+      outline: 0;
+      color: rgba(255, 255, 255, 0.8);
+      background-color: transparent; }
+    .navbar-forum .nav li a:focus, .navbar-forum .nav li a:active {
+      outline: 0;
+      background-color: transparent; }
+  .navbar-forum .nav li.active {
+    outline: 0; }
+    .navbar-forum .nav li.active a {
+      background-color: rgba(255, 255, 255, 0.3); }
+      .navbar-forum .nav li.active a:hover {
+        color: #fff; }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -86,7 +122,31 @@ a {
     .navbar-custom.top-nav-collapse {
       padding: 0;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      background: #000; } }
+      background: #000; 
+      }
+    .navbar-forum{
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out,color 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out, color 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out,color 0.5s ease-in-out; }
+        .navbar-forum.top-nav-collapse {
+          padding: 0;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+          background: #2E363A; 
+        }
+          .navbar-forum.top-nav-collapse.navbar-forum a{
+            color:#FFF;
+            -webkit-transition: color 0.5s ease-in-out;
+            -moz-transition: color 0.5s ease-in-out;
+             transition: color 0.5s ease-in-out; 
+          }
+          
+    }
+
 .intro {
   display: table;
   width: 100%;

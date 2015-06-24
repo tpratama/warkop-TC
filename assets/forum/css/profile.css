@@ -1,0 +1,53 @@
+#content {
+//	background-color:#3300FF;
+	width:910px;
+	margin-left:165px;
+	margin-right:0px;
+	padding-top:100px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+}
+
+.atas {
+	background-color:#F1F1F1;
+	width:863px;
+	height:160px;
+	margin:10px;
+	padding:10px;
+}
+
+.foto {
+	width:150px;
+	height:150px;
+	margin:5px;
+	float:left;
+}
+
+.briefinfo {
+//	background-color:#FFFFFF;
+	float:left;
+	margin:5px;
+	height:150px;
+	width:670px;
+}
+
+nama {
+	font-size:20px;
+	font-weight:bold;
+	}
+	
+.feeds {
+	float:left;
+	font-size:13px;
+//	background-color:#666666;
+	width:850px;
+	margin-bottom:10px;
+}
+
+.feedsinfo2 {
+	float:left;
+	width:500px;
+	height:80px;
+//	background-color:#00CCFF;
+}

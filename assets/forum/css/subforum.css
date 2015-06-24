@@ -1,0 +1,100 @@
+#judul {
+	background-image:url(../images/sample/subforum/games.png);
+	width:73%;
+	height:150px;
+	margin:10px;
+}
+
+#footer{
+	margin-top:-80px;
+}
+
+#judul_info {
+	color:#FFFFFF;
+	background-color:#2E363A;
+	width:auto;
+	padding:5px;
+	padding-left:10px;
+	float:right;
+	text-align:right;
+	margin-top:100px;
+}
+
+#navigation {
+	color:#FFFFFF;
+	background-color:#2E363A;
+	width:auto;
+	padding:5px;
+	float:left;
+	text-align:right;
+}
+
+#postnew {
+	color:#FFFFFF;
+	background-color:#F72E2E;
+	position:absolute;
+	width:auto;
+	padding:5px;
+	top:auto;
+	left:auto;
+	margin-top:40px;
+	font-weight:bold;
+}
+
+.thread {
+	background-color:#F1F1F1;
+	width:73%;
+	height:90px;
+	margin:10px;
+}
+
+.paging {
+	width:73%;
+	text-align:center;
+}
+
+.tag {
+	margin-top:30px;
+	margin-left:20px;
+	width:5%;
+	float:left;
+}
+
+.title {
+	margin:10px;
+	height:70px;
+	width:54%;
+	float:left;
+}
+
+.title_info1 {
+	width:auto;
+	font-weight:bold;
+}
+
+.title_info2 {
+	font-size:12px;
+	margin-top:-3px;
+}
+
+.title_info3 {
+	font-size:12px;
+	margin-top:10px;
+}
+
+
+.lastpost {
+	margin:10px;
+	height:70px;
+	width:19%;
+	float:left;
+	font-size:12px;
+}
+
+.reply {
+	margin:10px;
+	height:70px;
+	width:12%;
+	float:left;
+	font-size:13px;
+}

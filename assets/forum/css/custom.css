@@ -1,3 +1,5 @@
+
+
 a.def:link, a.def:visited {
     color: #FFFFFF;
 	text-decoration:none;
@@ -33,25 +35,37 @@ a.newthread:hover, a.newthread:active {
 	background-color:#1C9CD8;
 	text-decoration:none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 
 #body{
 	background-color:#E4E4E4;
-	font-family:Segoe UI;
 	width:100%;
+	overflow-x:hidden;
+	padding-left: 30px;
+	padding-right: 30px;
+		font-family: 'Lora',sans-serif;
 }
 
-#header{
+.header{
 	color:#FFFFFF;
 	width:100%;
 	position:fixed;
 	z-index:100;
-	box-shadow: 0px 5px 10px #888888;
 
 }
 
 #userinfo{
 	text-align:right;
-	margin-right: 25px;
 	float:right;
 }
 
@@ -76,17 +90,26 @@ a.newthread:hover, a.newthread:active {
 
 .headeratas{
 	background-color:#1C9CD8;
-	padding:5px;
-	padding-left:30px;
+	height:50px;
+	width: 100%;
+	padding-left: 30px;
 }
 
+.jarak-10{
+	padding-top: 10px;
+}
+
+.jarak-20{
+	padding-top: 20px;
+}
 .headerbawah{
 	background-color:#333333;
 	padding-top: 5px;
-	padding-bottom: 5px;
-	z-index:1;
+	padding-bottom: 5px;	
 	height:10%;
 	font-size:14px;
+	width: 100%;
+	z-index: 50;
 }
 
 #inboxcount{
@@ -97,29 +120,24 @@ a.newthread:hover, a.newthread:active {
 	float:right; margin-right:15px; width:20px;
 }
 
-#content{
-	padding:70px;
-	padding-top:100px;
-	padding-bottom:120px;
+.content_forum{
+	padding-left: 80px;
+	padding-bottom:80px;
 	min-height:360px;
 }
 
-#slider{
-
-	height: 230px;
+.slider{
+	
 	display:block;
-
+	float:left;
 	position:absolute;
-
 }
 
 .headline{
-//	overflow:hidden;
-	width:883px;
-	position:absolute;
-	-webkit-transform: translate(-80%,-80%);
-      -ms-transform: translate(-80%,-80%);
-          transform: translate(-80%,-80%);
+	margin-left: 10px;
+	width: 1000px;
+	height: 300px;
+
 }
 
 
@@ -127,7 +145,7 @@ a.newthread:hover, a.newthread:active {
 	font-size:14px;
 	font-weight:bold;
 	margin-bottom:5px;
-//	overflow:hidden;
+	font-family: 'Quicksand',sans-serif;
 }
 
 .head_info{
@@ -135,101 +153,111 @@ a.newthread:hover, a.newthread:active {
 	font-size:12px;
 	padding:10px;
 	width:40%;
+//	overflow:hidden;
 	float:right; 
 	margin-top:120px;
-	height:120px;
+	height:auto;
 	color:#FFFFFF;
+//	z-index:100;
 }
 
+.stick {
+    position:fixed;
+    z-index: 1;
+    top:0px;
+    width: 100%;
+
+}
+
+.inden{
+	vertical-align: center;
+}
+
+.container_custom{
+	padding-top: 100px;
+	width: 100%;
+}
 .timeline{
-	z-index:-10;
-	background-color:#F8F8F8;
-	position:fixed;
-	left:0px;
-	
+	z-index:-1;
+	background-color:#6E6E6E;
+	position: fixed;
+	left: 20px;
+	top:0px;
+	width: 250px;
 	height:100%;
-	width:20%;
-	padding:20px;
 	color:#2E363A;
 	font-size:12px;
-	box-shadow: 0px 5px 10px #888888;
-
+	padding-right:5px;
+	display: block;
 }
 
-.title_tl{
+#title_tl{
 	font-size:14px;
 	font-weight:bold;
 	text-align:center;
 	margin-bottom:20px;
 }
 
-.content_tl{
+#content_tl{
 	font-weight:normal;
+	font-size: 12px;
 }
 
 .HT{
 	background-color:#F1F1F1;
-//	box-shadow: 0px 5px 10px #888888;
-//	color:#FFFFFF;
-	margin:10px;
-	
-	float:left;
-	margin-top:250px;
-	font-size:16px;
-	bottom:52px;
-	width:412px;
-//	background-color: #FFFFFF;
-//	background-image: -moz-linear-gradient(top, #E3E3E3, #FFFFFF);
-//	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E3E3E3), to(#FFFFFF));
-//	background-image: -webkit-linear-gradient(top, #E3E3E3, #FFFFFF);
-//	background-image: -o-linear-gradient(top, #E3E3E3, #FFFFFF);
-//	background-image: linear-gradient(to top, #E3E3E3, #FFFFFF);
+	font-size:12px;
+	margin-top: 3px;
+
 }
 
 .HT_isi{
-	text-align:right;
-	font-size:15px;
+	padding-left:50px;	
+	font-size:14px;
 	color:#FFFFFF;
-	position:absolute;
 	bottom:52px;
 	width:412px;
+	height: 160px;
+	
 }
 
-#HT1_title{
+.hot_space{
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-top:4px;
+	height: 160px;
+}
+.HT1_title{
 	background-color:#F72E2E;
 	padding:10px;
 	text-align:right;
 	font-size:15px;
 	color:#FFFFFF;
-//	margin-top:60px;
-	position:absolute;
 	bottom:52px;
-	width:412px;
+	margin-top: 5px;
 }
 
-#HT2_title{
+.HT2_title{
 	background-color:#F58634;
 	padding:10px;
 	text-align:right;
 	font-size:15px;
 	color:#FFFFFF;
-//	margin-top:60px;
-	position:absolute;
 	bottom:52px;
-	width:412px;
+	margin-top: 5px;
 }
 
-#footer{
+.footer{
 	background-color:#2E363A;
 	color:#FFFFFF;
 	width:100%;
 	text-align:center;
-	margin-top:45px;
+	margin-top: 50px;
 	padding-top:20px;
 	padding-bottom:20px;
-	float:left;
 	font-size:11px;
 	font-weight:normal;
+	overflow: auto;
 }
 
 .HOT{
@@ -240,19 +268,16 @@ a.newthread:hover, a.newthread:active {
 }
 
 .hot_title{
-	margin-top:30px;
+	margin-top:10px;
 	padding:5px;	
 	color:#FFFFFF;
 	text-align:right;
-	width:inherit;	
+	width:180px;	
 	float:right;
 }
 
 .updates{
 	background-color:#F1F1F1;
-	margin:10px;
-	width:73.1%;
-	float:left;
 }
 
 .uptitle{
@@ -271,7 +296,8 @@ a.newthread:hover, a.newthread:active {
 .feed {
 	float:left;
 	font-size:13px;
-	width:100px;	
+	background-color:#666666;
+	width:100%;
 	margin-bottom:10px;
 }
 
