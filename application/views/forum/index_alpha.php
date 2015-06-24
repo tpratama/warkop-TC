@@ -3,7 +3,7 @@
 <div class="row">
         
         <!-- HEADLINE SLIDER -->
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-xs-10 col-xs-offset-1">
         <div id="slider">
                      
             <div class="headline" style="background-image:url(<?php echo base_url();?>assets/forum/images/sample/slider/1.png);">
@@ -44,9 +44,9 @@
 
 
 <div class="row inden">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-xs-8 col-xs-offset-2">
         <div class="row jarak-10">
-            <div class="col-md-6">
+            <div class="col-xs-6">
                 <div class="row HT1_title">
                 <h5>Hot Threads <b>Forum Kuliah</b></h5>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-6">
                 <div class="row HT2_title ">
                 <h5>Hot Threads <b>Forum Bebas</b></h5>
                 </div>
@@ -80,9 +80,9 @@
 
             
         <div class="row jarak-20">
-            <div class="col-md-8">
+            <div class="col-xs-8">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="row hot_space" style="background-image:url(<?php echo base_url();?>assets/forum/images/sample/HOT1.png)">
                                  <a href="thread.php" > <!-- Hot1 -->
                                      <div class="hot_title" style="background-color:#F72E2E">
@@ -92,7 +92,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="row hot_space" style="background-image:url(<?php echo base_url();?>assets/forum/images/sample/HOT2.png)">
                                  <a href="thread.php" > <!-- Hot1 -->
                                      <div class="hot_title" style="background-color:#F72E2E">
@@ -106,9 +106,9 @@
             </div>
         </div>
         <div class="row jarak-10">
-            <div class="col-md-8">
+            <div class="col-xs-8">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="row hot_space" style="background-image:url(<?php echo base_url();?>assets/forum/images/sample/HOT3.png)">
                                  <a href="thread.php" > <!-- Hot1 -->
                                      <div class="hot_title" style="background-color:#F72E2E">
@@ -118,7 +118,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="row hot_space" style="background-image:url(<?php echo base_url();?>assets/forum/images/sample/HOT4.png)">
                                  <a href="thread.php" > <!-- Hot1 -->
                                      <div class="hot_title" style="background-color:#F72E2E">
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-            <div class="col-md-4" >
+            <div class="col-xs-4" >
  
             </div>
         </div>
@@ -140,12 +140,12 @@
 
 <div class="row jarak-20" >
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 uptitle">
+        <div class="col-xs-8 col-xs-offset-2 uptitle">
                 Quick <b>Updates</b>
         </div>
     </div>
     <div class="row">
-    <div class="col-md-8 col-md-offset-2 updates">
+    <div class="col-xs-8 col-xs-offset-2 updates">
     
                 <li> <a class="dark" href="thread.php"><b>[Games]</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </a> </li>
                 <li> <a class="dark" href="thread.php"><b>[Movie]</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit</a> </li>

@@ -19,6 +19,7 @@
     <!-- Custom CSS -->
     <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
     <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
+
     <link href="<?php echo base_url(); ?>assets/css/animations.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -75,7 +76,6 @@
                     </div>
                     <button type="submit" class="btn btn-default">Search</button>
                     </form>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
                           <ul class="dropdown-menu" style="background-color:#2E363A; color:#000; ">

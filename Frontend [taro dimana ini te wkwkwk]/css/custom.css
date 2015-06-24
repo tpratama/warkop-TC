@@ -114,8 +114,8 @@ a.newthread:hover, a.newthread:active {
 }
 
 .headline{
-//	overflow:hidden;
-	width:883px;
+
+	width:100%;
 	position:absolute;
 	-webkit-transform: translate(-80%,-80%);
       -ms-transform: translate(-80%,-80%);
