@@ -1,4 +1,4 @@
-#kuliah {
+.kuliah {
 	background-image:url(../images/sample/subforum/kuliah.png);
 	width:73%;
 	height:150px;
@@ -22,12 +22,11 @@
 	margin-top:100px;
 }
 
-#cat {
+.cat {
 	margin: 10px;
 	margin-top:20px;
 	background-color:#F1F1F1;
-	width: 73%;
-	height: 440px;
+	height: auto;
 }
 
 .subcat {

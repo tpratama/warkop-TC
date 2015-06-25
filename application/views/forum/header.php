@@ -30,7 +30,8 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/custom.css">
-    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/allforum.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/subforum.css">
     <script src="<?php echo base_url(); ?>assets/forum/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/forum/js/jquery-1.9.0.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/forum/js/jquery.cycle.all.js"></script>
@@ -55,7 +56,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="<?php echo base_url();?>Forum/alpha">
                   <span class="light">Warkop</span> <mark>TC</mark>
                 </a>
             </div>
@@ -98,10 +99,10 @@
                         <a class="page-scroll" href="/warkop-TC/Portal">Portal</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#behind">Forum Kuliah</a>
+                        <a class="page-scroll" href="<?php echo base_url();?>Forum/forum_kuliah">Forum Kuliah</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Forum Bebas</a>
+                        <a class="page-scroll" href="<?php echo base_url();?>Forum/forum_bebas">Forum Bebas</a>
                     </li>
                 </ul>
             </div>

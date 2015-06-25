@@ -1,33 +1,39 @@
-#kuliah {
+.kuliah {
 	background-image:url(../images/sample/subforum/kuliah.png);
-	width:73%;
+	width:880px;
 	height:150px;
-	margin:10px;
+	margin-top: 30px;
+	margin-left: 90px;
+	box-shadow: 0px 4px 10px 0px #888888;
 }
 
-#bebas {
+.bebas {
 	background-image:url(../images/sample/subforum/bebas.png);
-	width:73%;
+	width:880px;
 	height:150px;
-	margin:10px;
+	margin-top: 30px;
+	margin-left: 90px;
+	box-shadow: 0px 4px 10px 0px #888888;
 }
 
-#judul_info {
+.judul_info {
 	color:#FFFFFF;
 	background-color:#2E363A;
-	width:10%;
+	width:20%;
 	padding:5px;
 	float:right;
 	text-align:right;
 	margin-top:100px;
 }
 
-#cat {
-	margin: 10px;
-	margin-top:20px;
+.cat {
+
 	background-color:#F1F1F1;
-	width: 73%;
+	width: 880px;
 	height: 440px;
+	margin-left: 90px;
+	margin-top: 20px;
+
 }
 
 .subcat {
@@ -40,12 +46,16 @@
 }
 
 .parental {
+	color:#000;
 	font-weight:bold;
 	font-size:14px;
+	margin: 10px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .subforum {
-	margin-left:10px;
+	margin-left:20px;
+	font-size: 12px;
 }
 
 #footer {

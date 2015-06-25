@@ -29,4 +29,23 @@ class Forum extends CI_Controller {
 		$this->load->view('forum/index_alpha');
 		$this->load->view('forum/footer');
 	}
+
+	public function forum_kuliah(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/kuliah');
+		$this->load->view('forum/footer');
+	}
+
+	public function forum_bebas(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/bebas');
+		$this->load->view('forum/footer');
+	}
+
+	public function thread(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/subforum');
+		$this->load->view('forum/footer');
+	}
+
 }
