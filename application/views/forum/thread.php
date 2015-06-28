@@ -1,268 +1,209 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>WARKOPTC - Thread</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-   
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-   	<link rel="stylesheet" href="css/thread.css">
+<div class="bg-atas">
     
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-</head>
-
-<body id="body">
-	
-    <!-- HEADER -->
-	<div id="header">
-		<div id="headeratas">
-        	<div id="logo">
-            	<a href="index.php" style="margin-right:10px;"><img src="images/logo.png" height="40" width="40"></a>
-                WARKOP<b>TC</b>
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-1">
+        <!-- judul atas thread-->
+        <div class="row top">
+            <div class="col-xs-4 date">
+            Yesterday 14:00           
             </div>
-            <div id="userinfo">
-            	<div id="pp"> <img src="images/sample/ava.png" /> </div>
-                <div id="uname">
-                	<a class="def" href="profile.php">Nelson Madela (nelz_mdl9)</a><br>
-                    5114100009
+            <div class="numbering">
+            #1
+            </div>
+        </div>
+        <!--end of judul atas thread-->
+        
+        <div class="row id-container">
+            <div class="row judul-thread">
+                Judul nantinya akan berada disini gan! 
+            </div>
+            <div class="row isi-thread">
+            
+                Kalau Anda ingat dengan sinetron Tuyul dan Mbak Yul, pastilah sosok ini dulu sangat akrab di ingatan Anda. Dia adalah Kentung. Jin paling gemuk di serial itu. Kemarin, 24 Desember 2014, saya bertemu dengan dia. Bukan dalam kapasitas penggemar dengan artis, tetapi antara seorang pekerja sosial dari Dinsos DIY dengan seorang calon klien. Lansia terlantar.
+<br><br>
+                Kalau Anda ingat dengan sinetron Tuyul dan Mbak Yul, pastilah sosok ini dulu sangat akrab di ingatan Anda. Dia adalah Kentung. Jin paling gemuk di serial itu. Kemarin, 24 Desember 2014, saya bertemu dengan dia. Bukan dalam kapasitas penggemar dengan artis, tetapi antara seorang pekerja sosial dari Dinsos DIY dengan seorang calon klien. Lansia terlantar.
+<br><br>
+                Kalau Anda ingat dengan sinetron Tuyul dan Mbak Yul, pastilah sosok ini dulu sangat akrab di ingatan Anda. Dia adalah Kentung. Jin paling gemuk di serial itu. Kemarin, 24 Desember 2014, saya bertemu dengan dia. Bukan dalam kapasitas penggemar dengan artis, tetapi antara seorang pekerja sosial dari Dinsos DIY dengan seorang calon klien. Lansia terlantar.
+<br><br>
+
+                
+            </div>
+
+        
+        </div>
+        <div class="row footer-thread">
+                <div class="quote">
+                    <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-                        pushpin" aria-hidden="true"></span>                           Quote
+                    </button>
                 </div>
-	      	</div>
         </div>
-	    <div id="headerbawah" style="font-weight:bold">
-	        	<a class="def" href="kuliah.php" style="margin-right:10px;" >FORUM KULIAH</a>
-	            <a class="def" href="bebas.php">FORUM BEBAS</a>
-				<a class="newthread" href="logout.php">Log out</a>
-  				<a class="newthread" style="margin-right:10px;" href="newthread.php">+ Thread Baru</a>
-        </div>
+        
     </div>
-    <!-- END OF HEADER -->
-    
-    
-    
-    <!-- MAIN CONTENT -->
-    <div id="content">
-    	
-		<!-- Judul -->
-    	<div id="judul">
-            <div id="navigation">
-            	<a class="def" href="index.php"> Home > </a>
-            	<a class="def" href="bebas.php"> Forum Bebas > </a>
-            	<a class="def" href="bebas.php"> Games > </a>
-            	<a class="def" href="subforum.php"> <b>PC Gaming</b> > </a>
-				<a class="def" href="thread.php"> <b>Judul Thread 1 Lorem Ipsum</b> </a>
+    <div class="col-xs-2">
+        <!-- judul atas thanks-->
+        <div class="row top-thanks">
+            <div class="thanks">
+            <h6> Thread Starter</h6>
             </div>
-            <div id="postnew"><a href="create_comment.php" class="def">+ Post Reply</a></div>
-            <div class="paging">
-	        	<a class="dark" href="thread.php">1</a> - 
-				<a class="dark" href="thread.php">2</a> - 
-	        	<a class="dark" href="thread.php">3</a> - 
-	        	<a class="dark" href="thread.php">4</a> - 
-	        	<a class="dark" href="thread.php">5</a> - 
-    	    	<a class="dark" href="thread.php">last page</a>
-	        </div>
         </div>
-       
-        
-        <!-- Posts -->
-        
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
+        <div class="row container-thanks">
+            <div class="row profile-pic">
+            <img src="<?php echo base_url();?>/assets/img/theo.jpg" width="140px" height="140px">
             </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
-                </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
+            <div class="row nama-id">
+            kikuburo    
             </div>
-            <div class="post_isi">
-            <h4>Lorem Ipsum</h4>
+            <div class="row joindate">
+            Join Date : 1 Aug 2015
+            </div>
+            <div class="row content">
+            Total Posts : 10
+            </div>
+            <div class="row content">
+            Thumbs Up : 5
+            </div>
+            <div class="row content">
+            Thumbs Down : 1
+            </div>
+            <div class="row rate">
+            <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></button>
+            </div>
+        </div>
+        <!-- end of atas thanks-->
+    </div>
+</div>
+
+</div>
+
+<div class="container">
+
+    <!--REPLY-->
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-1">
+         <!-- judul atas thread-->
+        <div class="row top post">
+            <div class="col-xs-4 date">
+            Yesterday 17:30           
+            </div>
+            <div class="numbering">
+            #2
+            </div>
+        </div>
+        <!--end of judul atas thread-->
+        <div class="row  container-post">
             
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit       		</div>
-        </div>
-        
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
-            </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
-                </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
-            </div>
-            <div class="post_isi">
-            <h4> Judul </h4>
-            	Lorem ipsum dolor sit amet
+            <div class="row isi-thread">
+            Bagus gan, betul itu, ane bantu sundul ya gan!       
+            <br>
+            <br>
+                Kalau Anda ingat dengan sinetron Tuyul dan Mbak Yul, pastilah sosok ini dulu sangat akrab di ingatan Anda. Dia adalah Kentung. Jin paling gemuk di serial itu. Kemarin, 24 Desember 2014, saya bertemu dengan dia. Bukan dalam kapasitas penggemar dengan artis, tetapi antara seorang pekerja sosial dari Dinsos DIY dengan seorang calon klien. Lansia terlantar. 
             </div>
         </div>
-
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
-            </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
+        <div class="row footer-thread">
+                <div class="quote">
+                    <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-                        pushpin" aria-hidden="true"></span>                           Quote
+                    </button>
                 </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
-            </div>
-            <div class="post_isi">
-            <h4> Judul </h4>
-            	Lorem ipsum dolor sit amet
-            </div>
-        </div>
-
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
-            </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
-                </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
-            </div>
-            <div class="post_isi">
-            <h4> Judul </h4>
-            	Lorem ipsum dolor sit amet
-            </div>
-        </div>
-
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
-            </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
-                </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
-            </div>
-            <div class="post_isi">
-            <h4> Judul </h4>
-            	Lorem ipsum dolor sit amet
-            </div>
-        </div>
-
-        <div class="post">
-            <div class="post_title">
-            	Today, 09:48 PM
-            </div>
-            <div class="post_id">
-            	<div class="gambar">
-                	<img src="images/sample/cAvatar1.jpg" height="64" width="64" />
-                </div>
-            	<div class="id">
-					<a href="profile.php" class="dark"><b>Sasha Grey</b></a>
-                    <br />
-                    5109100009
-                </div>
-            </div>
-            <div class="post_isi">
-            <h4> Judul </h4>
-            	Lorem ipsum dolor sit amet
-            </div>
-        </div>
-        
-    	<div id="judul">
-            <div id="navigation">
-            	<a class="def" href="index.php"> Home > </a>
-            	<a class="def" href="bebas.php"> Forum Bebas > </a>
-            	<a class="def" href="bebas.php"> Games > </a>
-            	<a class="def" href="subforum.php"> <b>PC Gaming</b> > </a>
-				<a class="def" href="thread.php"> <b>Judul Thread 1 Lorem Ipsum</b> </a>
-            </div>
-            <div id="postnew"><a href="create_comment.php" class="def">+ Post Reply</a></div>
-            <div class="paging">
-	        	<a class="dark" href="thread.php">1</a> - 
-				<a class="dark" href="thread.php">2</a> - 
-	        	<a class="dark" href="thread.php">3</a> - 
-	        	<a class="dark" href="thread.php">4</a> - 
-	        	<a class="dark" href="thread.php">5</a> - 
-    	    	<a class="dark" href="thread.php">last page</a>
-	        </div>
-        </div>
-
-        
-        
-        <!-- End of Thread -->
-       
-	</div>
-    
-    <!-- END OF MAIN CONTENT -->
-    
-    
-   
-    
-    <!-- TIMELINE -->
-    <div id="timeline">
-    	<div id="title_tl"> TC Timeline </div>
-        <div id="content_tl">
-        
-        	<div class="feed">
-            	<div class="feedinfo1"><img src="images/sample/cAvatar1.jpg" /></div>
-                <div class="feedinfo2"><b>Emma Stone</b> mengganti gambar profilnya</div>
-            </div>
-            
-			<div class="feed">
-            	<div class="feedinfo1"><img src="images/sample/cAvatar1.jpg" /></div>
-                <div class="feedinfo2"><b>Emma Stone</b> bilang "Lorem ipsum dolor sit amet <3"</div>
-            </div>
-
-        	<div class="feed">
-            	<div class="feedinfo1"><img src="images/sample/img-team-thumb1.png" /></div>
-                <div class="feedinfo2"><b>John White</b> mengganti gambar profilnya</div>
-            </div>
-
-        	<div class="feed">
-            	<div class="feedinfo1"><img src="images/sample/img-team-thumb2.png" /></div>
-                <div class="feedinfo2"><b>Sukipli</b> mengganti gambar profilnya</div>
-            </div>
-
-        	<div class="feed">
-            	<div class="feedinfo1"><img src="images/sample/img-team-thumb4.png" /></div>
-                <div class="feedinfo2"><b>Jajang Sunandar</b> mengganti gambar profilnya</div>
-            </div>
-
-            
         </div>
     </div>
     
-    <!-- FOOTER -->
-    <div id="footer">
-    	<b>(c) 2015 LBE LP2 - Teknik Informatika ITS. All Rights Reserved</b>
-        <br />
-        Best viewed on 1366*768
-        <br /><br />
-        <a href="http://hmtc.if.its.ac.id"><img src="images/sample/hmtc.jpg" width="35" height="50" /></a>
-	</div>
+    <div class="col-xs-2">
+        <div class="row top-thanks2">
+            <div class="thanks">
+            <h6> ID Reply</h6>
+            </div>
+        </div>
+        <div class="row container-thanks-2">
+            <div class="row">
+                <div class="col-xs-4 profile-pic-2">
+                    <img src="<?php echo base_url();?>/assets/img/andi.jpg" width="50px" height="50px">  
+                </div>
+                <div class="col-xs-6 nama-id-2">
+                    andi_gila
+                    <div class="row rate-2">
+            <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row joindate-2">
+            Join Date : 1 Aug 2015
+            </div>
+            <div class="row content-2">
+            Total Posts : 10
+            </div>
+            <div class="row content-2">
+            Thumbs Up : 5
+            </div>
+            <div class="row content-2">
+            Thumbs Down : 1
+            </div>
+            
+        </div>
+    </div>
+</div>
+        <!--REPLY-->
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-1">
+         <!-- judul atas thread-->
+        <div class="row top post">
+            <div class="col-xs-4 date">
+            Yesterday 17:30           
+            </div>
+            <div class="numbering">
+            #2
+            </div>
+        </div>
+        <!--end of judul atas thread-->
+        <div class="row  container-post">
+            <div class="row isi-thread">
+            Bagus gan, betul itu, ane bantu sundul ya gan!       
+           
+            </div>
+        </div>
+        <div class="row footer-thread">
+                <div class="quote">
+                    <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-                        pushpin" aria-hidden="true"></span>                           Quote
+                    </button>
+                </div>
+        </div>
+    </div>
     
-</body>
-</html>
+    <div class="col-xs-2">
+        <div class="row top-thanks2">
+            <div class="thanks">
+            <h6> ID Reply</h6>
+            </div>
+        </div>
+        <div class="row container-thanks-2">
+            <div class="row">
+                <div class="col-xs-4 profile-pic-2">
+                    <img src="<?php echo base_url();?>/assets/img/andi.jpg" width="50px" height="50px">  
+                </div>
+                <div class="col-xs-6 nama-id-2">
+                    andi_gila
+                    <div class="row rate-2">
+            <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default btn-xs" style="margin:3px; margin-right:4px;"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row joindate-2">
+            Join Date : 1 Aug 2015
+            </div>
+            <div class="row content-2">
+            Total Posts : 10
+            </div>
+            <div class="row content-2">
+            Thumbs Up : 5
+            </div>
+            <div class="row content-2">
+            Thumbs Down : 1
+            </div>
+            
+        </div>
+    </div>
+</div>
+    
+</div>

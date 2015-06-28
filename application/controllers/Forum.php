@@ -42,9 +42,15 @@ class Forum extends CI_Controller {
 		$this->load->view('forum/footer');
 	}
 
-	public function thread(){
+	public function subforum(){
 		$this->load->view('forum/header');
 		$this->load->view('forum/subforum');
+		$this->load->view('forum/footer');
+	}
+    
+    public function thread(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/thread');
 		$this->load->view('forum/footer');
 	}
 

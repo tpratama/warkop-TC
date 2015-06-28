@@ -1,11 +1,5 @@
         <!-- jQuery -->
-         <div class="footer">
-        <b>(c) 2015 LBE LP2 - Teknik Informatika ITS. All Rights Reserved</b>
-        <br />
-        Best viewed on 1366*768
-        <br /><br />
-        <a href="http://hmtc.if.its.ac.id"><img src="<?php echo base_url(); ?>assets/forum/images/sample/hmtc.jpg" width="35" height="50" /></a>
-        </div>
+         
 
         <script src="<?php echo base_url(); ?>assets/js/classie.js"></script>
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
@@ -31,4 +25,12 @@
 
         <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
+
+        <div class="footer">
+        <b>(c) 2015 LBE LP2 - Teknik Informatika ITS. All Rights Reserved</b>
+        <br />
+        Best viewed on 1366*768
+        <br /><br />
+        <a href="http://hmtc.if.its.ac.id"><img src="<?php echo base_url(); ?>assets/forum/images/sample/hmtc.jpg" width="35" height="50" /></a>
+        </div>
 </html>

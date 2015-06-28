@@ -10,7 +10,24 @@
             </div>
         </div>
     </div>
-
+    <div class="row" style="margin:10px;margin-top:20px;">
+        <div class="col-xs-2 col-xs-offset-2">
+        <form>
+                 <button class="btn btn-default"> + Pesan Tempat </button>
+        </form>
+        </div>
+        <div class="col-xs-6" >
+                <nav>
+                  <ul class="pagination pagination-sm" style="margin:0px; float:right;">
+                    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                  </ul>
+                </nav>
+        </div>
+    </div>
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
 
@@ -165,13 +182,26 @@
                     </div>
                 </div>
 
-
-                  <div class="row" style="postition: fixed;margin:10px">
-                 <form>
-                 <button class="btn btn-default"> + New Thread </button>
-                 </form>
-                 </div>
             </div>
+        </div>
+    </div>
+
+<div class="row" style="margin:10px;margin-top:20px;">
+        <div class="col-xs-2 col-xs-offset-2">
+        <form>
+                 <button class="btn btn-default"> + Pesan Tempat </button>
+        </form>
+        </div>
+        <div class="col-xs-6" >
+                <nav>
+                  <ul class="pagination pagination-sm" style="margin:0px; float:right;">
+                    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                  </ul>
+                </nav>
         </div>
     </div>
 

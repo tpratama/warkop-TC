@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/custom.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/allforum.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/subforum.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/forum/css/thread_2.css">
     <script src="<?php echo base_url(); ?>assets/forum/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/forum/js/jquery-1.9.0.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/forum/js/jquery.cycle.all.js"></script>
